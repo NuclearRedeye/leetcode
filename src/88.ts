@@ -1,6 +1,6 @@
 import { equals } from './utils/array.utils.ts';
 
- function merge(nums1: number[], m: number, nums2: number[], n: number): void {
+function merge(nums1: number[], m: number, nums2: number[], n: number): void {
   if (m >= 0 && 
       m <= 200 &&
       n >= 0 && 
