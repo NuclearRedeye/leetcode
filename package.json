@@ -1,0 +1,11 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "NuclearRedeye",
+  "license": "MIT",
+  "description": "My leetcode solutions",
+  "devDependencies": {
+    "@types/node": "^22.13.1"
+  }
+}
