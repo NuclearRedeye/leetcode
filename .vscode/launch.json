@@ -1,0 +1,12 @@
+{
+  "type": "node",
+  "name": "Debug App",
+  "program": "${file}",
+  "args": [
+    "--disable-warning=ExperimentalWarning",
+    "--experimental-strip-types",
+    "${file}"
+  ],
+  "configurations": [
+  ]
+}
