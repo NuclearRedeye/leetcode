@@ -1,11 +1,12 @@
-const maxInt = Math.pow(2, 31);
+const maxInt = Math.pow(2, 31) - 1;
+const minInt = Math.pow(2, 31) * -1;
 
 function reverse(x: number): number {
     let retVal = parseInt([...x.toString()].reverse().join(''));
     if (x < 0) {
         retVal *= -1;
     }
-    if (Number.isNaN(retVal) || retVal < (maxInt * -1) || retVal > maxInt - 1) {
+    if (Number.isNaN(retVal) || retVal < minInt || retVal > maxInt) {
         retVal = 0;
     }
     return retVal
