@@ -1,7 +1,7 @@
 #!/bin/make
 PROJECT := $(notdir $(CURDIR))
 
-SOURCES=$(shell find ./src/* -name ".ts" -exec basename {} \;)
+SOURCES=$(shell find ./src -maxdepth 1 -name "*.ts" -exec basename {} \;)
 
 # Targets that don't result in output of the same name.
 .PHONY: distclean \
