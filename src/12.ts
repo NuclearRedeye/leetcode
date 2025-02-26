@@ -23,7 +23,6 @@ function intToRoman(num: number): string {
       default: break;
     }
   }
-  console.log([...retVal].reverse().join(''));
   return [...retVal].reverse().join('');
 };
 
