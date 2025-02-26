@@ -1,4 +1,4 @@
-const numerals = [['I', 'V'], ['X', 'L'], ['C', 'D'], ['M', 'M']]
+const numerals = [['I', 'V'], ['X', 'L'], ['C', 'D'], ['M', 'M']];
 
 function intToRoman(num: number): string {
   let retVal = "";
